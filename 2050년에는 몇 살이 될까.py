@@ -1,0 +1,7 @@
+import time
+now = time.time()
+thisYear = int(1970 + now//(365 * 24 * 60 * 60))
+
+print("올해는",thisYear,"입니다.")
+age = int(input("몇 살이신지요? "))
+print("2050년에는",age + (2050 - thisYear),"살 이시군요.")
